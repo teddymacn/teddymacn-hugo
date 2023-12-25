@@ -1,0 +1,88 @@
+baseURL: https://teddyma.cn/
+languageCode: en-us
+title: Teddy's Knowledge Base
+paginate: 5
+theme: "PaperMod"
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+menu:
+  main:
+    - name: Categories
+      url: categories/
+      weight: 10
+    - name: Tags
+      url: tags/
+      weight: 11
+    - name: Archive
+      url: archives
+      weight: 12
+    - name: Search
+      url: search/
+      weight: 13
+    - name: RSS
+      url: index.xml
+      weight: 15
+
+params:
+  env: production
+  title: Teddy's Knowledge Base
+  description: ""
+  keywords: [teddyma, Blog]
+  author: Teddy
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  # homeInfoParams:
+  #   Title: "Hi there \U0001F44B"
+  #   Content: Welcome to my blog
+
+  profileMode:
+    enabled: true
+    title: "Teddy Ma"
+    subtitle: "Software Architect, Cloud Native, DevOps, AI, etc"
+    imageUrl: "https://avatars.githubusercontent.com/u/16752428?v=4"
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: Blogs
+        url: "/posts"
+      - name: Github
+        url: "https://github.com/teddymacn"
+      - name: "@teddyma_cn"
+        url: "https://twitter.com/teddyma_cn"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
