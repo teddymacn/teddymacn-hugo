@@ -5,8 +5,8 @@ This site is powered by [hugo](https://gohugo.io/), any changes auto-publish to 
 ### Commands
 
 ```bash
-# create a new post
-hugo new content posts/my-first-post.md
+# create a new blog
+hugo new content blogs/new-blog.md
 
 # run hugo server
 hugo server

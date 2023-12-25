@@ -11,7 +11,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["posts", "papermod"]
+mainsections: ["blogs", "papermod"]
 
 minify:
   disableXML: true
@@ -19,21 +19,21 @@ minify:
 
 menu:
   main:
-    - name: Categories
-      url: categories/
-      weight: 10
+    - name: Blogs
+      url: blogs
+      weight: 8
     - name: Tags
       url: tags/
-      weight: 11
-    - name: Archive
-      url: archives
+      weight: 10
+    - name: Archives
+      url: archives/
       weight: 12
     - name: Search
       url: search/
-      weight: 13
+      weight: 14
     - name: RSS
       url: index.xml
-      weight: 15
+      weight: 16
 
 params:
   env: production
@@ -74,7 +74,7 @@ params:
     imageHeight: 120
     buttons:
       - name: Blogs
-        url: "/posts"
+        url: "/blogs"
       - name: Github
         url: "https://github.com/teddymacn"
       - name: "@teddyma_cn"

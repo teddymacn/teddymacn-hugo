@@ -2,11 +2,9 @@
 author: Teddy
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 date: {{ .Date }}
-description: ""
+#description: ""
 summary: ""
 tags: []
-categories: []
-#series: ["Themes Guide"]
 #ShowToc: true
 #TocOpen: true
 ---
