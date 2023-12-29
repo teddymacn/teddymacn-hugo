@@ -4,7 +4,7 @@ title: "Migrate Classic ASP.NET Apps to Containers"
 date: 2023-12-28
 #description: ""
 summary: "The motivations, strategies, and challenges of migrating classic ASP.NET applications to containers"
-tags: ["container", "mono", "aspnet", "devops"]
+tags: ["container", "mono", "aspnet", "dotnet", "devops"]
 ShowToc: true
 TocOpen: true
 ---
