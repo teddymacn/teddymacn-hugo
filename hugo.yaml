@@ -1,6 +1,6 @@
 baseURL: https://teddyma.cn/
 languageCode: en-us
-title: Teddy's Knowledge Base
+title: Teddy's Hub
 paginate: 5
 theme: "PaperMod"
 
@@ -68,7 +68,7 @@ params:
   profileMode:
     enabled: true
     title: "Teddy Ma"
-    subtitle: "Software Architect, Cloud Native, DevOps, AI, etc"
+    subtitle: "Full-stack Software Architect"
     imageUrl: "https://avatars.githubusercontent.com/u/16752428?v=4"
     imageWidth: 120
     imageHeight: 120
